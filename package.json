@@ -1,0 +1,28 @@
+{
+	"name": "base-apparel-coming-soon-webpack-app",
+	"version": "1.0.0",
+	"description": "![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AngeliqueDF/base-apparel-coming-soon-webpack-app.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AngeliqueDF/base-apparel-coming-soon-webpack-app/issues"
+	},
+	"homepage": "https://github.com/AngeliqueDF/base-apparel-coming-soon-webpack-app#readme",
+	"dependencies": {
+		"vite": "^3.0.0"
+	},
+	"devDependencies": {
+		"typescript": "^4.6.4"
+	}
+}
