@@ -52,6 +52,11 @@ form {
 /* Copy */
 .picture {
 	margin-block-end: 3rem;
+	background-image: url("./../images/hero-mobile.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	width: 100%;
+	height: 30vh;
 }
 
 .copy-headline,
