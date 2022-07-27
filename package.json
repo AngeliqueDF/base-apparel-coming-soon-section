@@ -5,7 +5,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc && vite build",
+		"build": "vite build",
 		"preview": "vite preview"
 	},
 	"repository": {
@@ -21,8 +21,5 @@
 	"homepage": "https://github.com/AngeliqueDF/base-apparel-coming-soon-webpack-app#readme",
 	"dependencies": {
 		"vite": "^3.0.0"
-	},
-	"devDependencies": {
-		"typescript": "^4.6.4"
 	}
 }
