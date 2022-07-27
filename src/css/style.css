@@ -154,3 +154,84 @@ form ::placeholder {
 .grey-text-color {
 	color: var(--dark-grayish-red);
 }
+
+@media screen and (min-width: 1440px) {
+	body {
+		min-height: 100vh;
+		background-image: url("./../images/bg-pattern-desktop.svg");
+		background-repeat: no-repeat;
+		background-position: left center;
+		background-size: 60% 100%;
+	}
+
+	main {
+		height: 100vh;
+	}
+
+	/* Reset padding and margins */
+	h1 {
+		padding: unset;
+	}
+	p,
+	.copy-headline,
+	form {
+		margin: unset;
+	}
+	/* End reset padding and margins */
+
+	/* Layout */
+	h1 {
+		padding-block-start: 6vh;
+		height: unset;
+	}
+
+	h1,
+	.copy {
+		padding-inline-start: 10rem;
+	}
+	form {
+		margin-inline-start: 10rem;
+		grid-row-start: 3;
+		max-width: 67%;
+	}
+	/* End layout */
+
+	section {
+		height: 100vh;
+		min-height: 100%;
+		display: grid;
+		grid-template-columns: 1fr 40%;
+		grid-template-rows: 20vh 52vh auto;
+		column-gap: 6vw;
+	}
+
+	.picture {
+		grid-column-start: 2;
+		grid-row: 1 / span 3;
+		background-image: url("./../images/hero-desktop.jpg");
+		background-position: center;
+		background-size: cover;
+		height: 100%;
+	}
+
+	.copy-headline {
+		font-size: 5rem;
+		text-align: unset;
+		margin-block-end: 5vh;
+	}
+
+	p {
+		text-align: unset;
+		font-size: 1.5vw;
+		line-height: 4vh;
+		font-size: 1.33vw;
+	}
+
+	.email-submit {
+		width: 18%;
+	}
+
+	.email-submit img {
+		width: 3rem;
+	}
+}
