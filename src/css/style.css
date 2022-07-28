@@ -282,10 +282,10 @@ form ::placeholder {
 	}
 
 	.email-submit {
-		width: 18%;
+		max-width: 23%;
 	}
 
 	.email-submit img {
-		width: 3rem;
+		max-width: 45%;
 	}
 }
