@@ -154,6 +154,60 @@ form ::placeholder {
 	color: var(--dark-grayish-red);
 }
 
+@media screen and (min-width: 425px) {
+	.picture {
+		background-position: bottom center;
+		height: 33vh;
+	}
+
+	.email-submit img {
+		max-width: 55%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		padding-block-end: 6rem;
+	}
+
+	.picture {
+		height: 60vh;
+	}
+
+	p {
+		line-height: 5vh;
+		margin-block-end: 4rem;
+	}
+
+	form {
+		height: 4rem;
+	}
+
+	.email-input {
+		padding-block: 1rem;
+		font-size: 1.3rem;
+	}
+
+	.email-submit {
+		max-width: 16%;
+	}
+
+	.email-submit img {
+		max-width: 45%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.picture {
+		height: 80vh;
+		background-position: bottom center;
+	}
+
+	.email-submit img {
+		max-width: 40%;
+	}
+}
+
 @media screen and (min-width: 1440px) {
 	body {
 		min-height: 100vh;
