@@ -161,7 +161,7 @@ form ::placeholder {
 		background-image: url("./../images/bg-pattern-desktop.svg");
 		background-repeat: no-repeat;
 		background-position: left center;
-		background-size: 60% 100%;
+		background-size: 55% 100%;
 	}
 
 	main {
@@ -200,7 +200,7 @@ form ::placeholder {
 		height: 100vh;
 		min-height: 100%;
 		display: grid;
-		grid-template-columns: 1fr 40%;
+		grid-template-columns: 1fr 45%;
 		grid-template-rows: 20vh 52vh auto;
 		column-gap: 6vw;
 	}
